@@ -1,0 +1,6 @@
+framework module WYLSDK {
+  umbrella header "WYLSDK.h"
+
+  export *
+  module * { export * }
+}
