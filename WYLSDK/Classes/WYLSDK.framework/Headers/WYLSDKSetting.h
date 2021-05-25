@@ -1,23 +1,3 @@
-//
-//  WYLSDKSetting.h
-//  WYLSDK
-//
-//  Created by Hacker on 2021/3/24.
-//  Copyright © 2021 微引力. All rights reserved.
-//
-
-#import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface WYLSDKSetting : NSObject
-
-//Default Yes
-@property(class, nonatomic,assign) BOOL enableDefaultAudioSessionSetting;
-//Default Yes
-@property(class, nonatomic,assign) BOOL enableCAIDPermission;
-//Default No
-@property(class, nonatomic,assign) BOOL enableGPS;
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e5e40bb1c06f4db213ad34b9d0a9a5821518ea5708add72fe6f421cea681482
+size 484

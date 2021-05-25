@@ -1,21 +1,3 @@
-//
-//  WYLFeedView.h
-//  WYLSDK
-//
-//  Created by Hacker on 2021/4/12.
-//  Copyright © 2021 微引力. All rights reserved.
-//
-
-#import <UIKit/UIKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface WYLFeedView : UIView
-@property(nonatomic,weak) UIViewController *viewController;
-
-
-
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e671210da0e024005df05eb0d2c6674ec72c83e5ac72699668b68780dca0ec3
+size 303

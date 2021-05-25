@@ -1,18 +1,3 @@
-//
-//  WYLSDKManager.h
-//  WYLSDK
-//
-//  Created by Hacker on 2021/5/18.
-//  Copyright © 2021 微引力. All rights reserved.
-//
-
-#import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface WYLSDKManager : NSObject
-+(void) registerAppId:(NSString*) appId;
-+(BOOL) hasInit;
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:c45b68d005e8fc43cee97058836dcf35df42aa653a454f84b32fbd90bf39df38
+size 313

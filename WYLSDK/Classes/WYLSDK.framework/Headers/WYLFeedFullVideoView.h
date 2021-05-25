@@ -1,17 +1,3 @@
-//
-//  WYLFeedFullVideoView.h
-//  WYLSDK
-//
-//  Created by Hacker on 2021/4/13.
-//  Copyright © 2021 微引力. All rights reserved.
-//
-
-#import <UIKit/UIKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface WYLFeedFullVideoView : UIView
-@property (nonatomic, weak) UIViewController *viewController;
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:bda7d48e4e2aeaf5ea63dbaf1c99ef96d884383ff3129e760b095058c3513d2e
+size 319

@@ -1,6 +1,3 @@
-framework module WYLSDK {
-  umbrella header "WYLSDK.h"
-
-  export *
-  module * { export * }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:780538d1b6b1b37e3ec1b760fec27eaa281065afaa34204d7446d17e1a91dbd8
+size 93
