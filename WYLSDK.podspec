@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'WYL' => 'weiyinli2020@163.com' }
   s.source           = { :git => 'https://github.com/Weiyinli/WYLSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'http://wyl.cn'
+  s.social_media_url = 'http://wyl.cn'
 
   s.ios.deployment_target = '9.0'
   s.platform     = :ios, "9.0"
