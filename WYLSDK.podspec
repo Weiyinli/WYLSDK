@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WYLSDK'
-  s.version          = '1.0.9'
+  s.version          = '1.0.10'
   s.summary          = ' 微引力广告SDK .'
 
 # This description is used to generate tags and improve search results.
@@ -37,14 +37,14 @@ TODO: Add long description of the pod here.
   #依赖的系统静态库
   #z表示libz.tdb,后缀不需要,lib开头的省略lib
   s.libraries = 'bz2','c++','iconv','resolv.9','sqlite3','xml2','z','c++abi'
-  valid_archs = ['armv7', 'i386', 'x86_64', 'arm64']
 
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
-  s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
+  #valid_archs = ['armv7', 'i386', 'x86_64', 'arm64']
 
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  #s.pod_target_xcconfig = {  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
+  #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   #framework在工程中的路径
   s.vendored_frameworks = ['WYLSDK/Classes/WYLSDK.framework']
